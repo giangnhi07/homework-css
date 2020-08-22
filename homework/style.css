@@ -12,7 +12,7 @@ body {
 	align-items: center;
 	margin: 16px 16px;
 	border: 1px solid #DDD;
-	border-radius: 5px;
+	border-radius: 12px;
 }
 
 .category .image-category {
@@ -21,6 +21,8 @@ body {
 	background-image: url("https://loremflickr.com/240/320");
 	background-size: cover;
 	background-position: center;
+	border-bottom-left-radius: 12px;
+  	border-top-left-radius: 12px;
 }
 
 .category .title-category {
