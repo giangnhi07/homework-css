@@ -1,0 +1,29 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial, sans-serif;
+}
+/*category*/
+.category {
+	display: flex;
+	align-items: center;
+	margin: 16px 16px;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+}
+
+.category .image-category {
+	height: 50px;
+	width: 80px;
+	background-image: url("https://loremflickr.com/240/320");
+	background-size: cover;
+	background-position: center;
+}
+
+.category .title-category {
+	padding-left: 24px;
+	flex-grow: 1;
+}
