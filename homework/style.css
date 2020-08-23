@@ -6,6 +6,10 @@
 body {
 	font-family: arial, sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
 /*category*/
 .category {
 	display: flex;
@@ -29,3 +33,97 @@ body {
 	padding-left: 24px;
 	flex-grow: 1;
 }
+
+/*image and camera*/
+.image-information {
+	box-sizing: border-box;
+	display: flex;
+	height: 140px;
+	width: 250px;
+	background-image: url("https://loremflickr.com/240/320");
+	background-size: cover;
+	background-position: center;
+	align-items: flex-start;
+	justify-content:flex-start;
+}
+.image-information .text {
+	padding: 8px 0 0 8px;
+}
+
+.image-information .icon-information {
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 700;
+	padding: 2px 8px 2px 4px;
+	border-radius: 3px;
+	border: 0px;
+}
+
+.image-information .fa-video {
+	color: #aaa;
+}
+
+
+/*
+.infor {
+	display: flex;
+	margin: 0;
+	justify-content: column;
+}
+ .infor .content-infor {
+ 	width: 250px;
+ }
+
+ .infor .image-infor {
+ 	display: flex;
+ 	position: absolute;
+ 	height: 140px;
+ 	width: 250px;
+ 	background-image: url("https://loremflickr.com/240/320");
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 16px;
+ }
+
+.infor .text {
+	box-sizing: border-box;
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 160px;
+    margin: 0px;
+    position: absolute;
+}
+.time-infor {
+	color: rgb(135, 116, 87) !important;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.title-infor {
+	font-weight: 700;	
+	color: rgb(46, 62, 72);
+	font-size: 16px;
+	text-overflow: ellipsis;
+}
+.group-infor {
+	padding: 8px 0;
+	color: rgb(117, 117, 117);
+    font-size: 14px;
+    white-space: nowrap;
+
+}
+.icon-infor {
+	background-color: #eee;
+	padding: 8px 0 0 8px;
+	color: #333;	
+	font-size: 12px;
+	display: flex;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 2px 8px 2px 4px;
+}*/
