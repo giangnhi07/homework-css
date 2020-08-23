@@ -46,9 +46,6 @@ a {
 	align-items: flex-start;
 	justify-content:flex-start;
 }
-.image-information .text {
-	padding: 8px 0 0 8px;
-}
 
 .image-information .icon-information {
 	background-color: #fff;
@@ -58,6 +55,9 @@ a {
 	padding: 2px 8px 2px 4px;
 	border-radius: 3px;
 	border: 0px;
+	position: relative;
+	top: 8px;
+	left: 8px;
 }
 
 .image-information .fa-video {
