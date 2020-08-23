@@ -64,7 +64,38 @@ a {
 	color: #aaa;
 }
 
+.partner {
+	margin: 8px;
+	display: flex;
+}
 
+.partner .avatar {
+	height: 26px;
+	width: 26px;
+	background-image: url("https://loremflickr.com/240/320/dog");
+	background-size: cover;
+	background-position: center;
+	border: 1px solid #DDD;
+	border-radius: 100%;
+	display: flex;
+	
+}
+
+.partner .avatar2 {
+	margin-left: -8px;
+	z-index: -1
+}
+
+.partner .avatar3 {
+	margin-left: -8px;
+	z-index: -2
+}
+
+.partner .text {
+	color: #888;
+	padding: 8px;
+	font-size: 14px;
+}
 /*
 .infor {
 	display: flex;
