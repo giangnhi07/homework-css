@@ -10,6 +10,13 @@ body {
 a {
   text-decoration: none;
 }
+.section {
+	display: flex;
+}
+.content-event {
+	margin: 4px 10px;
+	padding: 4px;
+}
 /*category*/
 .category {
 	display: flex;
@@ -45,6 +52,7 @@ a {
 	background-position: center;
 	align-items: flex-start;
 	justify-content:flex-start;
+	margin-bottom: 8px; 
 }
 
 .image-information .icon-information {
@@ -65,7 +73,7 @@ a {
 }
 
 .partner {
-	margin: 8px;
+	margin: auto;
 	display: flex;
 }
 
@@ -122,3 +130,5 @@ a {
 	color: rgb(117, 117, 117);
     font-size: 14px;
 }
+
+
