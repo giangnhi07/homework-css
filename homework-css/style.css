@@ -5,14 +5,42 @@
 
 body {
 	font-family: arial, sans-serif;
+	padding: 32px 50px;
 }
 
 a {
   text-decoration: none;
 }
+
 .section {
 	display: flex;
+	padding: 32px 0px 16px;
+	flex-direction: column;
+	align-items: center;
 }
+.section-title {
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+	 margin: auto;
+}
+.section-title p {
+	color: #212121;
+	font-size: 32px;
+	font-weight: 700;
+}
+.section-title span {
+	color: #008294;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.section .section-body {
+	padding-top: 32px; 
+	display: flex;
+	margin: 0px;
+}
+
 .content-event {
 	margin: 4px 10px;
 	padding: 4px;
@@ -130,5 +158,7 @@ a {
 	color: rgb(117, 117, 117);
     font-size: 14px;
 }
+
+
 
 
