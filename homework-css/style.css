@@ -286,7 +286,7 @@ button {
 }
 /* footer*/
 .footer {
-
+	margin: 10px 0px;
 	background-color: #000;
 	color: #fff;
 }
