@@ -367,3 +367,38 @@ button {
 	color: #c4c5c5;
 	margin-right: 8px; 
 }
+
+.jumbotron {
+	margin-bottom:  32px;
+	display: flex;
+
+}
+
+.jumbotron h1 {
+	color: #000;
+	line-height: 1;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.jumbotron .content {
+	box-sizing: border-box;
+	flex-basis: 40%;
+	padding: 28px 0px;
+}
+
+.jumbotron .content a {
+	
+	font-size: 16px;
+	border-radius: 5px;
+	background-color: #f65858;
+	color: white;
+	padding: 16px 32px;
+}
+
+.jumbotron .image {
+	flex-basis: 60%;
+	background-image: url("./image/4198555.jpg");
+	background-size: cover;
+	background-position: center;
+}
