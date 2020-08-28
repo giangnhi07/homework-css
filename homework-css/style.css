@@ -5,11 +5,12 @@
 
 body {
 	font-family: arial, sans-serif;
+	margin: 0px;
 	/*padding: 32px 50px;*/
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 button {
 	height: 48px;
@@ -35,10 +36,10 @@ button {
 
 .section-title {
 	box-sizing: border-box;
-	 display: flex;
-	 align-items: center;
-	 justify-content: space-between;
-	 margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0;
 }
 
 .section-title .title {
@@ -91,7 +92,7 @@ button {
 	background-size: cover;
 	background-position: center;
 	border-bottom-left-radius: 12px;
-  	border-top-left-radius: 12px;
+	border-top-left-radius: 12px;
 }
 
 .category .title-category {
@@ -187,7 +188,7 @@ button {
 .content .group-infor {
 	padding: 8px 0;
 	color: rgb(117, 117, 117);
-    font-size: 14px;
+	font-size: 14px;
 }
 
 /* form search */
@@ -256,18 +257,18 @@ button {
 	border-radius: 8px;
 	border: 1px solid #a2a2a2;
 	border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    width: 100%;
-    box-sizing: border-box;
+	border-bottom-right-radius: 0;
+	width: 100%;
+	box-sizing: border-box;
 }
 
 .local .input-text .search {
 	border-radius: 8px;
 	border: 1px solid #a2a2a2;
 	border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    width: 100%;
-    box-sizing: border-box;
+	border-bottom-left-radius: 0;
+	width: 100%;
+	box-sizing: border-box;
 }
 
 /*button search*/
@@ -433,4 +434,39 @@ button {
 	background-position: center;
 	height: 34px;
 	width: 100px;
+}
+
+/*background*/
+.bg {
+	position: relative;
+	overflow: hidden;
+}
+
+.bg .sky1{
+	right: 44%;
+	left: auto;
+	top: -378px;
+	height: auto;
+	position: absolute;
+}
+
+.bg .sky2 {
+	right: -111px;
+	top: -161px;
+	height: auto;
+	position: absolute;
+}
+
+.bg .sky3{
+	left: 0;
+	top: 300px;
+	display: inline;
+	position: absolute;
+}
+
+.bg .sky4 {
+	right: 0;
+    top: 500px;
+    display: inline;
+    position: absolute;
 }
