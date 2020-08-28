@@ -403,3 +403,34 @@ button {
 	background-size: cover;
 	background-position: center;
 }
+
+.header {
+
+	display: flex;
+	font-size: 14px;
+	color: #212121;
+	font-weight: 600;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 16px;
+	background: transparent;
+}
+
+
+.header li {
+	display: inline;
+	list-style-type: none;
+	margin-left: 8px; 
+}
+.header a {
+	color: #212121;
+}
+
+.header .logo {
+	display: block;
+	background-image: url('./image/meetup-1.svg');
+	background-size: cover;
+	background-position: center;
+	height: 34px;
+	width: 100px;
+}
